@@ -68,7 +68,7 @@
                         <li class="hidecontent"><a href="../About.jsp">About</a></li>
                         <li class="hidecontent"><a href="#" onclick="servicesbox()" id="servicesid">Services <i class="fa-solid fa-angle-down"id="arowdown" style="color: #ffffff; margin-left: 5px;"></i><i class="fa-solid fa-angle-up" id="arowup" style="margin-left: 5px; "></i></a></li>
                         <li class="hidecontent"><a href="../upcomingprojects.jsp">Projects</a></li>
-                        <li class="hidecontent"><a href="../contactus.jsp">Contact me</a></li>
+                        <li class="hidecontent"><a href="../contactus.jsp">Contact us</a></li>
                     </ul> 
                          
                     
