@@ -326,7 +326,7 @@
                             <option value="Ruby Hall Clinic">RubyHallClinic</option>
                             <option value="Bund Garden">Bund Garden</option>
                             <option value="Kalyani Nagar">Kalyani Nagar</option>
-                            <option value="Ramwadi">Ramwad</option>
+                            <option value="Ramwadi">Ramwadi</option>
 
                         </select><br>
                     </div>
