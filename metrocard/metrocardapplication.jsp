@@ -69,7 +69,7 @@ body {
             font-family: Arial, sans-serif;
             background-color:rgba(226, 223, 223, 0.674);
             color:rgb(5, 5, 5);
-            background-image: url('https://www.punemetrorail.org/assets/images/banner3.jpg'); 
+            background-image: url('/images/img4.webp'); 
             background-size: cover;
             background-position: center; 
             background-repeat: no-repeat; 

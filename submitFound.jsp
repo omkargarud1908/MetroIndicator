@@ -8,7 +8,7 @@ String description = request.getParameter("description");
 String stationName = request.getParameter("S_name");
 
 // Database connection details
-String url = "jdbc:mysql://localhost:3308/MetroIndicator"; // Adjust the URL, database name as necessary
+String url = "jdbc:mysql://localhost:3306/MetroIndicator"; // Adjust the URL, database name as necessary
 String user = "root"; // Database username
 String pass = ""; // Database password
 

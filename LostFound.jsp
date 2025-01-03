@@ -351,7 +351,7 @@
                     </thead>
                     <tbody>
                         <%
-                        String url = "jdbc:mysql://localhost:3308/MetroIndicator";
+                        String url = "jdbc:mysql://localhost:3306/MetroIndicator";
                         String user = "root";
                         String pass = "";
             

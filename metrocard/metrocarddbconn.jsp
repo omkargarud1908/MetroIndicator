@@ -44,7 +44,7 @@ String address=request.getParameter("address");
 try{
    
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3308/MetroIndicator","root","");
+    Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/MetroIndicator","root","");
     ResultSet rs;
     PreparedStatement ps1= con.prepareStatement("select username from registration where username=?");
     ps1.setString(1,username);

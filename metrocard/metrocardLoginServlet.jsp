@@ -9,7 +9,7 @@ try{
     String usrname=request.getParameter("usrname");
     String pwd=request.getParameter("password");
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3308/MetroIndicator","root","");
+    Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/MetroIndicator","root","");
     PreparedStatement ps= con.prepareStatement("select address,cardno,name,password,expdate from registration where username=? and password=?");
     ps.setString(1,usrname);
     ps.setString(2,pwd);

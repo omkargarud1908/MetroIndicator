@@ -15,7 +15,7 @@ String stationName = request.getParameter("S_name");
 String contactDetails = request.getParameter("contact");
 
 // Database connection details
-String url = "jdbc:mysql://localhost:3306/pune_metro";
+String url = "jdbc:mysql://localhost:3306/MetroIndicator";
 String user = "root";
 String pass = "";
 
@@ -60,8 +60,8 @@ try {
         props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
                 
         // Set your email credentials
-        final String usernames = "onlinepunemetro@gmail.com";
-        final String passwords = "qxoqrjtrjolvhlwv";
+        final String usernames = "online.mumbai.metro@gmail.com";
+        final String passwords = "yumyezamuipydeia";
                 
         // Create a session with authentication
         Session sessions = Session.getInstance(props, new Authenticator() {
@@ -75,8 +75,8 @@ try {
             Message messages = new MimeMessage(sessions);
             messages.setFrom(new InternetAddress(usernames));
             messages.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
-            messages.setSubject("Acknowledgement: Pune Metro Lost Item Report Received");
-            messages.setText("Hi " + name + ",\n\nThank you for submitting your lost item report regarding Pune Metro.\n\n and Your lost ID is L_"+id+" please chek on our website in found item if somthis match  with your item feel free to contact us and come with Lost id to collect your Item We have received your report and our team is currently looking into it.\n\nIf you have any further concerns or questions, please feel free to contact us.\n\nThank you for your cooperation.\n\nWarm regards,\nPune Metro");
+            messages.setSubject("Acknowledgement: Mumbai Metro Lost Item Report Received");
+            messages.setText("Hi " + name + ",\n\nThank you for submitting your lost item report regarding Pune Metro.\n\n and Your lost ID is L_"+id+" please chek on our website in found item if somthis match  with your item feel free to contact us and come with Lost id to collect your Item We have received your report and our team is currently looking into it.\n\nIf you have any further concerns or questions, please feel free to contact us.\n\nThank you for your cooperation.\n\nWarm regards,\nMumbai Metro");
                 
             // Send the message
             Transport.send(messages);
