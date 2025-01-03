@@ -20,7 +20,7 @@ if (name == null || name.isEmpty() || mobile == null || mobile.isEmpty() || emai
 }
 
 // Database connection details
-String url = "jdbc:mysql://localhost:3308/MetroIndicator";
+String url = "jdbc:mysql://localhost:3306/MetroIndicator";
 String user = "root";
 String pass = "";
 
@@ -51,8 +51,8 @@ try {
                 props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
                 
                 // Set your email credentials
-                final String usernames = "online.mimbai.metro@gmail.com";
-                final String passwords = "vhursqctooemmtxm";
+                final String usernames = "online.mumbai.metro@gmail.com";
+                final String passwords = "yumyezamuipydeia";
                 
                 // Create a session with authentication
                 Session sessions = Session.getInstance(props, new Authenticator() {
