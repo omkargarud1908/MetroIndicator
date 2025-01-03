@@ -37,7 +37,7 @@
             bottom: 0;
             width: 7%; /* Adjust the width as needed */
             height: 5px; /* Adjust the thickness of the underline */
-            background-color: rgb(208, 68, 136);
+            background-color:rgb(17, 130, 153);
         }
 .timetableimg{
     margin-left: 100px;

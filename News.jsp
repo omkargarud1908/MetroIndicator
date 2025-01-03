@@ -89,7 +89,7 @@
         bottom: 0;
         width: 7%;
         height: 5px;
-        background-color: rgb(208, 68, 136);
+        background-color: rgb(17, 130, 153);
     }
 
     .box {

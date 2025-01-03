@@ -64,7 +64,7 @@
             bottom: 0;
             width: 7%; /* Adjust the width as needed */
             height: 5px; /* Adjust the thickness of the underline */
-            background-color: rgb(208, 68, 136);
+            background-color: rgb(17, 130, 153);
         }
         label {
             font-weight: bold;
@@ -78,7 +78,7 @@
             box-sizing: border-box;
         }
         input[type="submit"] {
-            background-color: #eb60bd;
+            background-color: rgb(17, 130, 153);
             color: white;
             padding: 10px 20px;
             border: none;
@@ -141,7 +141,7 @@
 }
 .plan-your-jrny-box-label
 {
-    color: #C868A8;
+    color: rgb(17, 130, 153);
     font-weight: bold;
 }
 .plan-your-jrny-box-reset

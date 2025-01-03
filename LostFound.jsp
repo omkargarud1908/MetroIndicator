@@ -32,7 +32,7 @@
             bottom: 0;
             width: 7%; /* Adjust the width as needed */
             height: 5px; /* Adjust the thickness of the underline */
-            background-color: rgb(208, 68, 136);
+            background-color: rgb(17, 130, 153);
         }
     
         hr{
@@ -61,7 +61,7 @@
             box-sizing: border-box;
         }
         input[type="submit"] {
-            background-color: #eb60bd;
+            background-color: rgb(17, 130, 153);
             color: white;
             padding: 10px 20px;
             border: none;
@@ -124,7 +124,7 @@
             content: '';
             width: 0;
             height: 3px;
-            background:#ea47b4;
+            background:rgb(17, 130, 153);
             position: absolute;
             left: 0;
             bottom: -8px;

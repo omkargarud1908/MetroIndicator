@@ -623,7 +623,7 @@ nav a{
     cursor: pointer;
 }
 #calculateFareButton:hover{
-    background-color: rgb(21, 108, 171);
+    background-color: rgb(17, 130, 153);
 }
 
 /* css for the quote*/
@@ -1304,3 +1304,4 @@ margin-left: 70px;
     padding: 0;
     width: 0;
 }
+
