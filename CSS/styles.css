@@ -588,7 +588,7 @@ nav a{
 }
 .plan-your-jrny-box-selection input:hover {
     transform: scale(1.05); /* Scale up slightly on hover */
-    background-color: rgb(7, 90, 107);
+    background-color: rgb(17, 130, 153);
 }
 .plan-your-jrny-box-label
 {
@@ -1287,7 +1287,7 @@ margin-left: 70px;
 }
 
 #findNearestStationBtn {
-    background-color: #308d46;
+    background-color:rgb(17, 130, 153);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -1297,7 +1297,7 @@ margin-left: 70px;
 }
 
 #findNearestStationBtn:hover {
-    background-color: #2a7d3d;
+    background-color: rgb(5 157 178);
 }
 
 #findNearestStationBtn.minimize {
