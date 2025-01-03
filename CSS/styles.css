@@ -588,7 +588,7 @@ nav a{
 }
 .plan-your-jrny-box-selection input:hover {
     transform: scale(1.05); /* Scale up slightly on hover */
-    background-color: rgb(17, 130, 153);
+    background-color: rgb(7, 90, 107);
 }
 .plan-your-jrny-box-label
 {
@@ -623,7 +623,7 @@ nav a{
     cursor: pointer;
 }
 #calculateFareButton:hover{
-    background-color: blueviolet;
+    background-color: rgb(21, 108, 171);
 }
 
 /* css for the quote*/
@@ -988,9 +988,6 @@ nav a{
 .article a:hover {
     text-decoration: underline;
 }
-
-
-
 
 *body
 {
