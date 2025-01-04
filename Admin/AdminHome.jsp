@@ -21,7 +21,7 @@
     <title>Welcome to Mumbai Metro</title> 
     <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" /> 
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

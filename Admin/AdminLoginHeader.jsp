@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link id="cssLink" rel="stylesheet" href="styles.css">
+    <link id="cssLink" rel="stylesheet" href="/CSS/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,13 @@
                 <div class="left">
                     <span class ="red">
                         <a href="index.jsp">
-                            <img src="https://www.punemetrorail.org/assets/images/logo.png" id="punemetrologo">
+                            <img src="/images/MMRCLogo.png" id="punemetrologo">
 
                         </a>
                     </span>
                 </div>
                 <div >
-                    <div class="puneheading">Mumbai Metro RAIL PROJECT</div>
+                    <div class="puneheading">M(etr0)-Indicator</div>
                 </div>
                 <div class="right">
                     <ul>
