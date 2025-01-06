@@ -22,12 +22,12 @@
     <title>Fare Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="farecalculator.css">
+    <link rel="stylesheet" href="CSS/farecalculator.css">
+    <link rel="stylesheet" href="CSS/heading.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="images/jpg" href="https://www.punemetrorail.org/assets/images/logo.png">
-
+    <link rel="icon" type="images/jpg" href="images/thead.png">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <%
@@ -40,7 +40,7 @@
         ResultSet rs = null;
         try {
             // Database connection details
-            String url = "jdbc:mysql://localhost:3306/pune_metro";
+            String url = "jdbc:mysql://localhost:3306/MetroIndicator";
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(url, "root", "");
 
@@ -69,8 +69,8 @@
 
 <body class="ubuntu-medium">
     <%@ include file="AdminHeader.jsp" %>
-    <div id="farecalculatorheading">
-        <h2>Fare Calculator</h2>
+    <div id="heading">
+        <i><h2 class="line">Fare Calculator</h2></i>
     </div>
     
     <div class="fare-calculator-box">
@@ -137,7 +137,7 @@
             <div class="totalfare">
                 <img src="https://www.punemetrorail.org/assets/images/ticket_fare.svg" class="fareimg">
                 <label for="" id="fare">Total fare:</label>
-                <i class="fa-solid fa-indian-rupee-sign" style="color: #ca5ca6; margin-top: 24px; size: 20px;"></i> 
+                <i class="fa-solid fa-indian-rupee-sign" style="color: #059DB2; margin-top: 24px; size: 20px;"></i> 
                 <span id="fareResult"><%= fareResult %>
             </div>
         </div>
@@ -150,13 +150,13 @@
     </div>
     <div>
         <hr>
-        <img src="https://www.punemetrorail.org/assets/images/fare_chart_english.jpg" alt="" id="fareimg">
+        <img src="images/fareimg.jpg" alt="" id="fareimg">
     </div>
    
     <script src="index.js"></script>
     <script>
         english = document.getElementById('englishbutton');
-        english.style.backgroundColor = '#55528D';
+        english.style.backgroundColor = '#059DB2';
         english.style.color ='white';
         marathi = document.getElementById('marathibutton');
         marathi.style.backgroundColor='white';
@@ -167,12 +167,12 @@
         english = document.getElementById('englishbutton');
         marathi = document.getElementById('marathibutton');
     
-        english.style.backgroundColor = '#55528D';
+        english.style.backgroundColor = '#059DB2';
         english.style.color='white'
         marathi.style.backgroundColor = 'white';
         marathi.style.color='black';
     
-        img.src='images/pune_metro_timetable.jpg';
+        img.src='images/fareimg.jpg';
         
     }
     function marathibutton()
@@ -182,7 +182,7 @@
     
         english.style.backgroundColor = 'white';
         english.style.color='black'
-        marathi.style.backgroundColor = '#55528D';
+        marathi.style.backgroundColor = '#059DB2';
         marathi.style.color='white'
     
     

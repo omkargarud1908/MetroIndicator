@@ -10,50 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/farecalculator.css">
+    <link rel="stylesheet" href="CSS/heading.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="images/jpg" href="images/mumbaimetrologo.jpg">
+    <link rel="icon" type="images/jpg" href="images/thead.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body class="ubuntu-medium">
     <%@ include file="header.jsp" %>
-    <div class="social_media_group box_shadow">
+    <%@ include file="SocialMedia.jsp" %>
 
-        <ul>
-          <li>
-            <a href="https://www.facebook.com" target="_blank">
-              <img src="images/FacebookLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com" target="_blank">
-              <img src="images/YouTubeLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.thread.com" target="_blank">
-              <img src="images/ThreadsLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank">
-              <img src="images/InstagramLogo.webp">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank">
-              <img src="images/TwitterLogo.webp">
-            </a>
-          </li>
-    
-        </ul>
-      </div>
-
-    <div id="farecalculatorheading">
-        <h2>Fare Calculator</h2>
+    <div id="heading">
+        <i><h2 class="line">Fare Calculator</h2></i>
     </div>
     <div class="fare-calculator-box">
         <div class="fare-calculator-box1">
@@ -119,7 +90,7 @@
                 <div class="totalfare">
                     <img src="https://www.punemetrorail.org/assets/images/ticket_fare.svg" class="fareimg">
                     <label for="" id="fare">Total fare:</label>
-                    <i class="fa-solid fa-indian-rupee-sign" style="color: #ca5ca6; margin-top: 24px; size: 20px;">
+                    <i class="fa-solid fa-indian-rupee-sign" style="color: #059DB2; margin-top: 24px; size: 20px;">
                     </i> <span id="fareResult"></span><span id="rs" style="margin-left: 5px;"></span>
 
                 </div>
@@ -133,9 +104,9 @@
     </div>
     <div>
         <hr id="hrline">
-        <img src="https://www.punemetrorail.org/assets/images/fare_chart_english.jpg" alt="" id="fareimg">
+        <img src="images/fareimg.jpg" alt="" id="fareimg">
     </div>
-    <script src="farecalculator.js"></script>
+    <script src="JS/farecalculator.js"></script>
     
 </body>
 

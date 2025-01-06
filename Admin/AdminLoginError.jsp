@@ -5,8 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="metrocard_loginstyles.css">
-<link rel="stylesheet" href="headerfooter.css">
+<link rel="stylesheet" href="CSS/admin_loginstyles.css">
+<link rel="stylesheet" href="CSS/headerfooter.css">
+<link rel="icon" type="images/jpg" href="images/thead.png">
 <title>MetroCard Login</title>
 <style>
     body {

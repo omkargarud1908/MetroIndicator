@@ -92,7 +92,7 @@ function calculateFare()
 }
 /*for the fare image*/
 english = document.getElementById('englishbutton');
-english.style.backgroundColor = '#55528D';
+english.style.backgroundColor = '#059DB2';
 english.style.color ='white';
 marathi = document.getElementById('marathibutton');
 marathi.style.backgroundColor='white';
@@ -103,12 +103,12 @@ function englishbutton()
     english = document.getElementById('englishbutton');
     marathi = document.getElementById('marathibutton');
 
-    english.style.backgroundColor = '#55528D';
+    english.style.backgroundColor = '#059DB2';
     english.style.color='white'
     marathi.style.backgroundColor = 'white';
     marathi.style.color='black';
 
-    img.src='https://www.punemetrorail.org/assets/images/fare_chart_english.jpg';
+    img.src='images/fareimg.jpg';
     
 }
 function marathibutton()
@@ -118,7 +118,7 @@ function marathibutton()
 
     english.style.backgroundColor = 'white';
     english.style.color='black'
-    marathi.style.backgroundColor = '#55528D';
+    marathi.style.backgroundColor = '#059DB2';
     marathi.style.color='white'
 
 

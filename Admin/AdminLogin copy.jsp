@@ -5,11 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="metrocard_loginstyles.css">
-<link rel="stylesheet" href="headerfooter.css">
+<link rel="stylesheet" href="CSS/admin_loginstyles.css">
+<link rel="stylesheet" href="CSS/headerfooter.css">
 <title>Admin Login</title>
-<link rel="icon" type="images/jpg" href="https://www.punemetrorail.org/assets/images/logo.png">
-<style>
+<link rel="icon" type="images/jpg" href="images/thead.png"><style>
     body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;

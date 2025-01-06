@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="metrocard_loginstyles.css">
-<link rel="stylesheet" href="headerfooter.css">
+<link rel="stylesheet" href="CSS/metrocard_loginstyles.css">
+<link rel="stylesheet" href="CSS/headerfooter.css">
 <title>MetroCard Login</title>
 </head>
 <style>

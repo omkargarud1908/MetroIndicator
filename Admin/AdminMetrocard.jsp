@@ -17,48 +17,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" href="heading.css">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/heading.css">
     <title>Admin FoundLost</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="images/jpg" href="images/thead.png">
    
 </head>
 <body class="ubuntu-medium">
     <%@ include file="AdminHeader.jsp" %>
-
-  <div class="social_media_group box_shadow">
-
-    <ul>
-      <li>
-        <a href="https://www.facebook.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/facebook_174848.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/youtube_3938026.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.thread.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/threads.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/instagram_2111463.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.twitter.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/x_logo%202.png">
-        </a>
-      </li>
-
-    </ul>
-  </div>
+    <%@ include file="SocialMedia.jsp" %>
+ 
      <div id="heading">
     <i><h2 class="line">MetroCard Reports</h2></i>
     </div> 

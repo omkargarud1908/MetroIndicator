@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
     <link rel="stylesheet" href="CSS/heading.css">
     <title>Complaints</title>
-    <link rel="icon" type="images/jpg" href="images/mumbaimetrologo.jpg">
+    <link rel="icon" type="images/jpg" href="images/thead.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
@@ -16,37 +16,7 @@
 </head>
 <body>
     <%@ include file="header.jsp" %>
-    <div class="social_media_group box_shadow">
-
-        <ul>
-          <li>
-            <a href="https://www.facebook.com" target="_blank">
-              <img src="images/FacebookLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com" target="_blank">
-              <img src="images/YouTubeLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.thread.com" target="_blank">
-              <img src="images/ThreadsLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank">
-              <img src="images/InstagramLogo.webp">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank">
-              <img src="images/TwitterLogo.webp">
-            </a>
-          </li>
-    
-        </ul>
-      </div>
+    <%@ include file="SocialMedia.jsp" %>
 
    
     

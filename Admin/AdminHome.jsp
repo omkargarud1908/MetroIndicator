@@ -20,51 +20,20 @@
 <head> 
     <title>Welcome to Mumbai Metro</title> 
     <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" /> 
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     
-    <link rel="icon" type="images/jpg" href="https://www.punemetrorail.org/assets/images/logo.png">
-    
+    <link rel="icon" type="images/jpg" href="images/thead.png">    
 </head> 
 <body class="ubuntu-medium"> 
  
   <%@ include file="AdminHeader.jsp" %>
-    
-  <div class="social_media_group box_shadow">
-
-    <ul>
-      <li>
-        <a href="https://www.facebook.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/facebook_174848.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/youtube_3938026.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.thread.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/threads.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/instagram_2111463.png">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.twitter.com" target="_blank">
-          <img src="https://www.punemetrorail.org/assets/images/x_logo%202.png">
-        </a>
-      </li>
-
-    </ul>
-  </div>
+  <%@ include file="SocialMedia.jsp" %>
+ 
 
   <div>
 
@@ -146,11 +115,11 @@
 
 <section>
     <div class="slider">
-        <div class="slide" style="background-image: url('https://www.punemetrorail.org/assets/images/banner2.jpg')"></div>
-        <div class="slide" style="background-image: url('https://www.punemetrorail.org/assets/images/banner3.jpg')"></div>
-        <div class="slide" style="background-image: url('https://www.punemetrorail.org/assets/images/banner.jpg')"></div>
-        <div class="slide" style="background-image: url('https://www.punemetrorail.org/assets/images/banner3.jpg')"></div>
-        <div class="slide" style="background-image: url('https://www.punemetrorail.org/assets/images/banner.jpg')"></div> 
+      <div class="slide" style="background-image: url('images/metroimg5.jpg')"></div>
+      <div class="slide" style="background-image: url('images/metroimg2.jpg')"></div>
+      <div class="slide" style="background-image: url('images/metroimg3.avif')"></div>
+      <div class="slide" style="background-image: url('images/metroimg4.jpeg')"></div>
+      <div class="slide" style="background-image: url('images/metroimg2.jpg')"></div> 
     </div>
 </section>
 
@@ -170,7 +139,7 @@
         <div class="Complaint">
           <a href="AdminComplaints.jsp">
             <div class="Complaint1">
-              <img src="images/complain.svg" alt="">
+              <img src="images/complaint.svg" alt="">
               Complaint
               <i class="fa-solid fa-angle-right"></i>
             </div>

@@ -20,18 +20,19 @@
     <meta charset="UTF-8">
     <title>Mumbai Metro- Admin Ticket</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="heading.css">
-    <link rel="stylesheet" href="adminTicket.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/heading.css">
+    <link rel="stylesheet" href="CSS/adminTicket.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="images/jpg" href="https://www.punemetrorail.org/assets/images/logo.png">
+    <link rel="icon" type="images/jpg" href="images/thead.png">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 </head>
 <body class="ubuntu-medium">
     <%@ include file="AdminHeader.jsp" %>
+    <%@ include file="SocialMedia.jsp" %>
     <%
     String fareResult = "";
     String datetime = "";
@@ -87,8 +88,8 @@
 %>
 
 
-    <div id="farecalculatorheading">
-        <h2 class="line">Fare Calculator</h2>
+    <div id="heading">
+        <i><h2 class="line">Generate Ticket</h2></i>
     </div>
     <div class="fare-calculator-box">
         <div class="fare-calculator-box1">
@@ -163,7 +164,7 @@
                 <div class="totalfare">
                     <img src="https://www.punemetrorail.org/assets/images/ticket_fare.svg" class="fareimg">
                     <label for="" id="fare">Total fare:</label>
-                    <i class="fa-solid fa-indian-rupee-sign" style="color: #ca5ca6; margin-top: 24px; size: 20px;"></i> 
+                    <i class="fa-solid fa-indian-rupee-sign" style="color: #059DB2; margin-top: 24px; size: 20px;"></i> 
                     <span id="fareResult"><%= fareResult %></span>
                 </div>
             </div>

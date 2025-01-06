@@ -28,14 +28,14 @@
 
     .fare-calculator-box-selection label{
         margin-left: 10px;
-        color: #ca5ca6;
+        color: rgb(5 157 178);
         font-size: 18px;
     }
     .fare-calculator-box-selection input
     {
         height: 38px;
         width: 150px;
-        background-color: #ca5ca6;
+        background-color: rgb(5 157 178);
         border-radius: 5px;
         border: none;
         color: white;
@@ -81,7 +81,7 @@
     .rupeesicon{
         margin-top: 24px;
         size: 20px;
-        color: #ca5ca6;
+        color: rgb(5 157 178);
     }
 
     .totalfare
@@ -94,7 +94,7 @@
     }
     #fareResult
     {
-        color: #cc3e9d;
+        color: rgb(5 157 178);
         font-size: 29px;
         font-family: "Ubuntu", sans-serif;
     }

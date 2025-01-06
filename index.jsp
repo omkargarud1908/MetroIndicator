@@ -15,7 +15,7 @@
     
     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"async defer></script>
 
-    <link rel="icon" type="images/jpg" href="images/mumbaimetrologo.jpg">
+    <link rel="icon" type="images/jpg" href="images/thead.png">
     
 </head> 
 <body class="ubuntu-medium" id="sizecontainer"> 

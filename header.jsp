@@ -94,8 +94,8 @@
                             <li><a href="LostFound.jsp">Lost & Found</a></li>
                             <li><a href="farecalculator.jsp">Fare Calculator</a></li>
                             <li><a href="metrocard/metrocard_login.jsp">Metro Card</a></li>
-                            
-                            <li><a href="#">Time Table</a></li>
+                            <li><a href="MetroMap.jsp">Metro Map</a></li>
+                            <li><a href="timetable.jsp">Time Table</a></li>
                         </ul>
                     </div>
                     <li><a href="upcomingprojects.jsp">Projects</a></li>
@@ -112,7 +112,7 @@
         <li><a href="LostFound.jsp">Lost & Found</a></li>
         <li><a href="farecalculator.jsp">Fare Calculator</a></li>
         <li><a href="metrocard/metrocard_login.jsp">Metro card</a></li>
-        
+        <li><a href="MetroMap.jsp">Metro Map</a></li>
         <li><a href="timetable.jsp">Time Table</a></li>
         </ul>
     </div>

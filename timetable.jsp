@@ -7,11 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/timetable.css">
-    <link rel="stylesheet" href="farecalculator.css">
+    <link rel="stylesheet" href="CSS/farecalculator.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="images/jpg" href="images/mumbaimetrologo.jpg">
+    <link rel="icon" type="images/jpg" href="images/thead.png">
     
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
@@ -41,7 +41,7 @@
 
 <script>
     english = document.getElementById('englishbutton');
-english.style.backgroundColor = 'rgb(5 157 178)';
+english.style.backgroundColor = '#059DB2';
 english.style.color ='white';
 marathi = document.getElementById('marathibutton');
 marathi.style.backgroundColor='white';
@@ -52,7 +52,7 @@ function englishbutton()
     english = document.getElementById('englishbutton');
     marathi = document.getElementById('marathibutton');
 
-    english.style.backgroundColor = 'rgb(5 157 178)';
+    english.style.backgroundColor = '#059DB2';
     english.style.color='white'
     marathi.style.backgroundColor = 'white';
     marathi.style.color='black';
@@ -67,7 +67,7 @@ function marathibutton()
 
     english.style.backgroundColor = 'white';
     english.style.color='black'
-    marathi.style.backgroundColor = 'rgb(5 157 178)';
+    marathi.style.backgroundColor = '#059DB2';
     marathi.style.color='white'
 
 

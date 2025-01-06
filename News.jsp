@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
     <link rel="stylesheet" href="CSS/news.css">
     <title>Mumbai Metro - News</title>
-    <link rel="icon" type="images/jpg" href="images/mumbaimetrologo.jpg">
+    <link rel="icon" type="images/jpg" href="images/thead.png">
     
 </head>
 <body class="ubuntu-medium">
