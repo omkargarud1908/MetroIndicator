@@ -1,26 +1,4 @@
-.line {
-    position: relative;
-    }
-
-    .line::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 7%; /* Adjust the width as needed */
-        height: 5px; /* Adjust the thickness of the underline */
-        background-color: rgb(208, 68, 136);
-    }
-    #farecalculatorheading{
-        font-size: 30px;
-        margin-left: 100px;
-        
-    }
-    #farecalculatorheading h2{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: #55528dce;
-    }
-    
+  
     .fare-calculator-box{
         border: 0.5px solid grey;
         height: 190px;

@@ -18,156 +18,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="heading.css">
     <title>Admin Reports</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="images/jpg" href="https://www.punemetrorail.org/assets/images/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-          #heading{
-            font-size: 30px;
-            margin-left: 100px;
-            
-        }
-        #heading h2{
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: #55528dce;
-        }
-        .line {
-        position: relative;
-        }
-
-        .line::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 7%; /* Adjust the width as needed */
-            height: 5px; /* Adjust the thickness of the underline */
-            background-color: rgb(208, 68, 136);
-        }
-        .selection{
-            margin-left: 100px;
-            margin-top: 50px;
-        }
-        .selection button{
-            border-top-left-radius: 10px;   
-            border-top-right-radius: 10px; 
-            height: 40px;
-            width: 100px;
-            font-size: 17px;
-            border: none;
-         }
-       
-        hr{
-            margin-left: 100px;
-            width: 1310px;
-        }
-        .box{
-            border: 0.5px solid grey;
-            height: auto;
-            width: 1295px;
-            border-radius: 16px;
-            margin-left: 90px;  
-            margin-top: 20px; 
-            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-            padding: 20px;
-        }
-        label {
-            font-weight: bold;
-        }
-        input[type="text"], textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        input[type="submit"] {
-            background-color: #eb60bd;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #55528D;
-        }
-        table{
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .sub-title {
-            font-size: 60px;
-            font-weight: 600;
-            color: #fff;
-        }
-
-        .tab-titles {
-            display: flex;
-            margin-left: 100px;
-            margin-top: 50px;
-            margin-top: 50px;
-        }
-        .tab-titles button{
-            border-top-left-radius: 10px;   
-            border-top-right-radius: 10px; 
-            height: 40px;
-            width: 110px;
-            margin-right: 10px;
-            font-size: 17px;
-            border: none;
-            
-        }
-        .active-button {
-            background-color: #55528D !important; /* Change background color to purple */
-            color: white !important; /* Change text color to white */
-        }
-        .tab-links {
-            margin-right: 50px;
-            font-size: 18px;
-            font-weight: 500;
-            cursor: pointer;
-            position: relative;
-        }
-
-        .tab-links::after {
-            content: '';
-            width: 0;
-            height: 3px;
-            background:rgb(208, 68, 136);
-            position: absolute;
-            left: 0;
-            bottom: -8px;
-            transition: 0.5s;
-        }
-        .tab-links.active-link::after {
-            width: 100%;
-        }
-
-        .tab-contents ul li {
-            list-style: none;
-            margin: 10px 0;
-        }
-
-        .tab-contents {
-            display: none;
-        }
-
-        .tab-contents.active-tab {
-            display: block;
-        }
-    </style>
+   
 </head>
 <body class="ubuntu-medium">
     <%@ include file="AdminHeader.jsp" %>
@@ -281,7 +138,7 @@
                     <table border="1">
                         <tbody>
                             <%
-                                String url = "jdbc:mysql://localhost:3306/pune_metro";
+                                String url = "jdbc:mysql://localhost:3306/MetroIndicator";
                                 String user = "root";
                                 String pass = "";
                                 Connection con = null;

@@ -18,81 +18,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="heading.css">
     <title>Admin Complaints</title>
     <link rel="icon" type="images/jpg" href="https://www.punemetrorail.org/assets/images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        #heading{
-           font-size: 30px;
-           margin-left: 100px;
-           
-       }
-       #heading h2{
-           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-           color: #55528dce;
-       }
-       .selection{
-           margin-left: 100px;
-           margin-top: 50px;
-       }
-       .selection button{
-           border-top-left-radius: 10px;   
-           border-top-right-radius: 10px; 
-           height: 40px;
-           width: 100px;
-           font-size: 17px;
-           border: none;
-        }
-      
-       hr{
-           margin-left: 100px;
-           width: 1310px;
-        }
-        .box{
-            border: 0.5px solid grey;
-            height: auto;
-            width: 1295px;
-            border-radius: 16px;
-            margin-left: 90px;  
-            margin-top: 20px; 
-            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-            padding: 20px;
-        }
-       
-       .box2{
-            padding-top: 20px;
-            margin-left: 40px;
-            margin-right: 40px;
-            
-        }
-        .line {
-        position: relative;
-        }
-
-        .line::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 7%; /* Adjust the width as needed */
-            height: 5px; /* Adjust the thickness of the underline */
-            background-color: rgb(208, 68, 136);
-        }
-        table{
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-   </style>
+   
    
 </head>
 <body class="ubuntu-medium">
@@ -134,7 +66,7 @@
     </div>
     <main>
         <div class="box">
-                <h6>Complains by the users</h6>
+                <h6>Complaints by the users</h6>
                     <table border="2">
                                 <thead>
                                     <tr>
@@ -149,7 +81,7 @@
                                 </thead>
                                 <tbody>
                                     <%
-                                    String url = "jdbc:mysql://localhost:3306/pune_metro";
+                                    String url = "jdbc:mysql://localhost:3306/MetroIndicator";
                                     String user = "root";
                                     String pass = "";
                         

@@ -4,140 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/news.css">
     <title>Mumbai Metro - News</title>
     <link rel="icon" type="images/jpg" href="images/mumbaimetrologo.jpg">
-    
-    <style>
-    .ubuntu-medium {
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 500;
-    }
-
-    .container {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        position: relative;
-        margin-top: 100px;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-gap: 20px;
-        max-height: 600px;
-        overflow-y: auto;
-    }
-
-    .article {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-    }
-
-    .article img {
-        width: 100%;
-        height: auto;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    }
-
-    .text-content {
-        flex-grow: 1;
-        padding: 5px 0;
-    }
-
-    .article h2 {
-        margin-top: 20px;
-        font-size: 18px;
-    }
-
-    .article a {
-        text-decoration: none;
-        color: #007bff;
-        font-weight: bold;
-    }
-
-    .article a:hover {
-        text-decoration: underline;
-    }
-
-    #heading {
-        font-size: 30px;
-        margin-left: 100px;
-    }
-    
-    #heading h2 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: rgb(5 157 178);
-    }
-
-    .line {
-        position: relative;
-    }
-
-    .line::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 7%;
-        height: 5px;
-        background-color: rgb(17, 130, 153);
-    }
-
-    .box {
-        border: 0.5px solid grey;
-        height: auto;
-        width: 1295px;
-        border-radius: 16px;
-        margin-left: 90px;  
-        margin-top: 20px; 
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-        padding: 20px;
-    }
-    </style>
     
 </head>
 <body class="ubuntu-medium">
     <%@ include file="header.jsp" %>
-    <div class="social_media_group box_shadow">
-
-        <ul>
-          <li>
-            <a href="https://www.facebook.com" target="_blank">
-              <img src="images/FacebookLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com" target="_blank">
-              <img src="images/YouTubeLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.thread.com" target="_blank">
-              <img src="images/ThreadsLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank">
-              <img src="images/InstagramLogo.webp">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank">
-              <img src="images/TwitterLogo.webp">
-            </a>
-          </li>
-    
-        </ul>
-      </div>
+    <%@ include file="SocialMedia.jsp" %>
     <div id="heading">
         <i><h2 class="line">Mumbai Metro News</h2></i>
     </div>
