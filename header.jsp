@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="cssLink" rel="stylesheet" href="CSS/styles.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     
     <title>Document</title>
@@ -40,7 +42,6 @@
                         <li><a href="https://www.punemetrorail.org/screen-reader" class="hidecontent">SCREEN READER</a></li>
                          <li>|</li>
                         <li ><a href="" id="languagebtn">Language </a>
-                             
                             <div id="language">
                                 <ul id="languagecontainer">
                                     <li><a href="#">English</a></li>
@@ -54,8 +55,11 @@
                             <a href="#" class="sizebuttons"  id="increaseCssBtn">A+</a>
                             <a href="#" class="sizebuttons"  id="defaultCssBtn" >A</a>
                             <a href="#" class="sizebuttons"  id="decreaseCssBtn">A-</a>
-                        </li> 
-                    </ul>  
+                        </li>
+                    </ul> 
+                    <div class="toggle-container" id="themeToggle">
+                        <span class="material-icons" id="themeIcon">light_mode</span>
+                    </div> 
                 </div>
             </nav>
             <nav class="nav2">
@@ -118,4 +122,5 @@
     </div>
 </body>
 <script src="JS/header.js"></script>
+<script src="JS/DarkLightMode.js"></script>
 </html>

@@ -1,3 +1,52 @@
+:root {
+    --bg-color-light: #ffffff;
+    --text-color-light: #000000;
+    --bg-color-dark: #121212;
+    --text-color-dark: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
+.toggle-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.toggle-container:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.material-icons {
+    font-size: 24px;
+    color: var(--text-color-light);
+    transition: color 0.3s;
+}
+
+body.dark-mode .material-icons {
+    color: var(--text-color-dark);
+}
+
+
+
 #sizecontainer{
     overflow-x: hidden;
 }
@@ -160,10 +209,7 @@
     font-weight: 500;
   }
 
-  
-* {
-    color: black;
-}
+
 
 .puneheading
 {
@@ -537,6 +583,7 @@ nav a{
     border-radius: 10px 10px 10px 10px;
     background-color: #fff;
     z-index: 900;
+    color: black;
     padding: 10px;
     box-shadow: 0px 2px 4px 2px rgba(183, 189, 203, 0.3);
 }
@@ -681,7 +728,7 @@ nav a{
   }
   .time-table a{
     text-decoration: none;
-    color: black;
+    
     font-size: 18px;
   }
   .time-table1 i{
@@ -708,7 +755,7 @@ nav a{
   }
   .metro-card a{
     text-decoration: none;
-    color: black;
+    
     font-size: 18px;
   }
   .metro-card:hover
@@ -750,7 +797,7 @@ nav a{
   }
   .fare-chart a{
     text-decoration: none;
-    color: black;
+    
     font-size: 18px;
   }
   .fare-chart:hover
@@ -792,7 +839,7 @@ nav a{
   }
   .lostandfound a{
     text-decoration: none;
-    color: black;
+    
     font-size: 18px;
   }
   .lostandfound:hover
@@ -837,7 +884,7 @@ nav a{
 }
 .Ticket a{
   text-decoration: none;
-  color: black;
+
   font-size: 18px;
 }
 .Ticket:hover
@@ -882,7 +929,7 @@ nav a{
 }
 .Complaint a{
   text-decoration: none;
-  color: black;
+  
   font-size: 18px;
 }
 .Complaint:hover
