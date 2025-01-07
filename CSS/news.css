@@ -1,8 +1,15 @@
-.ubuntu-medium {
+/* Ensure smooth scrolling for the entire page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Base styling for the body */
+body.ubuntu-medium {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
 }
 
+/* Container for the page */
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -15,20 +22,38 @@
     margin-top: 100px;
 }
 
+/* Grid container for news items */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
-    max-height: 600px;
-    overflow-y: auto;
+    max-height: 600px; /* Fixed height for the grid to allow scrolling */
+    overflow-y: auto; /* Make it scrollable vertically */
+    scroll-behavior: smooth; /* Smooth scrolling inside the grid */
 }
 
+/* Optional: Style for the scrollbar */
+.grid-container::-webkit-scrollbar {
+    width: 10px; /* Scrollbar width */
+}
+
+.grid-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Thumb color */
+    border-radius: 5px;
+}
+
+.grid-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Thumb color on hover */
+}
+
+/* Styling for each article */
 .article {
     display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .article img {
@@ -43,11 +68,13 @@
     padding: 5px 0;
 }
 
+/* Title of each article */
 .article h2 {
     margin-top: 20px;
     font-size: 18px;
 }
 
+/* Read more link styling */
 .article a {
     text-decoration: none;
     color: #007bff;
@@ -58,6 +85,7 @@
     text-decoration: underline;
 }
 
+/* Header section styling */
 #heading {
     font-size: 30px;
     margin-left: 100px;
@@ -82,13 +110,33 @@
     background-color: rgb(17, 130, 153);
 }
 
+/* Box styling for the main news section */
 .box {
     border: 0.5px solid grey;
     height: auto;
     width: 1295px;
     border-radius: 16px;
-    margin-left: 90px;  
-    margin-top: 20px; 
+    margin-left: 90px;
+    margin-top: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     padding: 20px;
+}
+/* Scroll to Top Button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: none;  /* Initially hidden */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #0056b3;
 }
