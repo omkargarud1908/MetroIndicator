@@ -60,6 +60,7 @@ try{
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Registration Failed</title>
+
 <link rel="stylesheet" href="CSS/metrocard_loginstyles.css">
 </head>
 <body>
@@ -149,8 +150,8 @@ try{
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Registration Successful</title>
-<link rel="stylesheet" href="metrocard_loginstyles.css">
-<link rel="stylesheet" href="headerfooter.css">
+<link rel="stylesheet" href="CSS/metrocard_loginstyles.css">
+<link rel="stylesheet" href="CSS/headerfooter.css">
 </head>
 <%@ include file="header.jsp" %>
 <body>
@@ -175,8 +176,8 @@ try{
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Registration Unsuccessful</title>
-        <link rel="stylesheet" href="metrocard_loginstyles.css">
-        <link rel="stylesheet" href="headerfooter.css">
+        <link rel="stylesheet" href="CSS/metrocard_loginstyles.css">
+        <link rel="stylesheet" href="CSS/headerfooter.css">
     </head>
     <%@ include file="header.jsp" %>
     <body>

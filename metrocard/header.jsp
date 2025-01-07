@@ -20,7 +20,7 @@
                 <div class="left">
                     <span class ="red">
                         <a href="index.jsp">
-                            <img src="../images/mumbaimetrologo.png" id="punemetrologo">
+                            <img src="../images/MMRCLogo.png" id="punemetrologo">
 
                         </a>
                     </span>

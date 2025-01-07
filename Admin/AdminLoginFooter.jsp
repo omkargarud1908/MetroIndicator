@@ -19,7 +19,7 @@
             <hr id="hrline">
             <div id="belowline">
                 <div id="rightsreserved">
-                    @ 2024 Mumbai Metro Rail Project. All RIGHTS RESERVED.
+                    @ 2025 M(etro)-Indicator. All RIGHTS RESERVED.
                 </div>
                 
                     

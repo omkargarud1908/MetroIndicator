@@ -70,7 +70,7 @@ var map;
 var stations = [
     { name: "Vivekanand college", lat: 19.0459, lng: 72.8900 }, // College
     
-    // Add latitude and longitude for other stations here
+    
 ];
 
 // Initialize and add the map

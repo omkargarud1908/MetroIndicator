@@ -93,37 +93,8 @@ body {
 </head>
 <body>
     <%@ include file="header.jsp" %>
-    <div class="social_media_group box_shadow">
-
-        <ul>
-          <li>
-            <a href="https://www.facebook.com" target="_blank">
-              <img src="../images/FacebookLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com" target="_blank">
-              <img src="../images/YouTubeLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.thread.com" target="_blank">
-              <img src="../images/ThreadsLogo.png">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank">
-              <img src="../images/InstagramLogo.webp">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank">
-              <img src="../images/TwitterLogo.webp">
-            </a>
-          </li>
-    
-        </ul>
-      </div>    
+    <%@ include file="SocialMedia.jsp" %>
+     
     <div class="metro-card-container">
         <div class="metro-cardc">
             <div class="card-header">
@@ -172,8 +143,8 @@ body {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Metro Card</title>
-        <link rel="stylesheet" href="failedstyles.css">
-        <link rel="stylesheet" href="headerfooter.css">
+        <link rel="stylesheet" href="CSS/failedstyles.css">
+        <link rel="stylesheet" href="CSS/headerfooter.css">
     </head>
     <%@ include file="header.jsp" %> 
     <body>
