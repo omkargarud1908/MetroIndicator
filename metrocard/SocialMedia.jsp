@@ -12,27 +12,27 @@
         <ul>
           <li>
             <a href="https://www.facebook.com" target="_blank">
-              <img src="images/FacebookLogo.png">
+              <img src="../images/FacebookLogo.png">
             </a>
           </li>
           <li>
             <a href="https://www.youtube.com" target="_blank">
-              <img src="images/YouTubeLogo.png">
+              <img src="../images/YouTubeLogo.png">
             </a>
           </li>
           <li>
             <a href="https://www.thread.com" target="_blank">
-              <img src="images/ThreadsLogo.png">
+              <img src="../images/ThreadsLogo.png">
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com" target="_blank">
-              <img src="images/InstagramLogo.webp">
+              <img src="../images/InstagramLogo.webp">
             </a>
           </li>
           <li>
             <a href="https://www.twitter.com" target="_blank">
-              <img src="images/TwitterLogo.webp">
+              <img src="../images/TwitterLogo.webp">
             </a>
           </li>
       

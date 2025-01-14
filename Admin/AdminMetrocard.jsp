@@ -256,7 +256,7 @@
                                     updateexpp.setString(1, c_no);
                                     int r = updateexpp.executeUpdate(); 
 
-                                    PreparedStatement updateexp = con.prepareStatement("UPDATE metrocard SET expiry_date = DATE_ADD(NOW(), INTERVAL 1 MONTH) WHERE cardno = ?;");
+                                    PreparedStatement updateexp = con.prepareStatement("UPDATE metrocard SET expiry_date = DATE_ADD(NOW(), INTERVAL 1 MONTH) WHERE cardnumber = ?;");
                                     updateexp.setString(1, c_no);
                                     int q = updateexp.executeUpdate(); 
 

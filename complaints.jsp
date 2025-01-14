@@ -17,9 +17,6 @@
 <body>
     <%@ include file="header.jsp" %>
     <%@ include file="SocialMedia.jsp" %>
-
-   
-    
         <div id="heading">
         <i><h2 class="line">Complaints</h2></i>
         </div>

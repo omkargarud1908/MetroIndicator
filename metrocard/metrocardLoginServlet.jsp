@@ -40,6 +40,7 @@ try{
     <link rel="stylesheet" href="CSS/metrocard_loginstyles.css">
     
     <style>
+        
         .thistory {
             display: flex;
             
@@ -87,7 +88,9 @@ body {
             background-attachment: fixed; 
 }
 
-
+.card-body p{
+    color: #000;
+}
         </style>
     
 </head>
