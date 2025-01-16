@@ -15,6 +15,7 @@
 }
 h2{
     margin-top:10px;
+    color: rgb(5 157 178);
 }
 .container1 {
     max-width: 500px;
@@ -31,13 +32,16 @@ h2 {
 
 .form-group {
     margin-bottom: 10px;
+    color: black;
 }
 
 label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    color: black;
 }
+
 
 input[type="text"],
 input[type="email"],
@@ -68,7 +72,6 @@ body {
 
             font-family: Arial, sans-serif;
             background-color:rgba(226, 223, 223, 0.674);
-            color:rgb(5, 5, 5);
             background-image: url('/images/img4.webp'); 
             background-size: cover;
             background-position: center; 
