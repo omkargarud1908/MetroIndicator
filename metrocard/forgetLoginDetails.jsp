@@ -19,6 +19,7 @@
     ResultSet rs = null;
 
     try {
+        // Load MySQL JDBC driver
         Class.forName("com.mysql.jdbc.Driver");
         con = DriverManager.getConnection(url, user, pass);
 
@@ -35,7 +36,7 @@
 
             // Email configuration
             final String smtpUser = "online.mumbai.metro@gmail.com";
-            final String smtpPass = "yumyezamuipydeia";
+            final String smtpPass = "yumyezamuipydeia";  // Ensure this is your actual SMTP password or app-specific password
 
             Properties props = new Properties();
             props.put("mail.smtp.host", "smtp.gmail.com");
@@ -45,19 +46,21 @@
             props.put("mail.smtp.ssl.protocols", "TLSv1.2");
             props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
 
-            // Rename session to avoid conflict with JSP's implicit session object
+            // Set up session with SMTP server using Gmail credentials
             Session mailSession = Session.getInstance(props, new Authenticator() {
                 protected PasswordAuthentication getPasswordAuthentication() {
                     return new PasswordAuthentication(smtpUser, smtpPass);
                 }
             });
 
+            // Compose the email message
             Message message = new MimeMessage(mailSession);
             message.setFrom(new InternetAddress(smtpUser));
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(email));
             message.setSubject("Your Login Details");
             message.setText("Dear User,\n\nYour login details:\nUsername: " + username + "\nPassword: " + password + "\n\nRegards,\nMumbai Metro Team");
 
+            // Send the email
             Transport.send(message);
 
             // Use JavaScript alert and redirect
@@ -72,14 +75,28 @@
             out.println("</script>");
         }
     } catch (Exception e) {
+        // Handle errors (display error message)
         out.println("<script type='text/javascript'>");
         out.println("alert('An error occurred: " + e.getMessage() + "');");
         out.println("</script>");
+        e.printStackTrace();  // Optional: log the error for debugging
     } finally {
-        // Close database connections and resources
-        if (rs != null) rs.close();
-        if (pst != null) pst.close();
-        if (con != null) con.close();
+        // Close database connections and resources safely
+        try {
+            if (rs != null) {
+                rs.close();
+            }
+            if (pst != null) {
+                pst.close();
+            }
+            if (con != null) {
+                con.close();
+            }
+        } catch (SQLException se) {
+            out.println("<script type='text/javascript'>");
+            out.println("alert('Error closing database resources: " + se.getMessage() + "');");
+            out.println("</script>");
+        }
     }
 %>
 
