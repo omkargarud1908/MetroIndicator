@@ -162,3 +162,15 @@ function calculateDistance(point1, point2) {
     var d = R * c; // Distance in kilometers
     return d * 1000; // Distance in meters
 }
+
+function validateForm() {
+    let nameInput = document.getElementById("name");
+    
+    if (nameInput.value.trim() === "") {
+        nameInput.setCustomValidity("Please enter your name!");
+        return false;
+    } else {
+        nameInput.setCustomValidity(""); // Reset message
+        return true;
+    }
+}

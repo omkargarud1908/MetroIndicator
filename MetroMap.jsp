@@ -32,12 +32,13 @@
         </div>
         
         <div>
-            
             <img src="images/mapimghindi.jpg" alt="" id="fareimg">
         </div>
     
 
 </body>
+<script src="JS/header.js"></script>
+<script src="JS/index.js"></script>
 
 <script>
     english = document.getElementById('englishbutton');
@@ -75,7 +76,7 @@ function marathibutton()
 }
   
 </script><br>
-<script src="index.js"></script>    
+<script src="JS/index.js"></script>    
 <%@ include file="footer.jsp" %>
 
 </html>

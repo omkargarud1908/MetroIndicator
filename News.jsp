@@ -108,5 +108,7 @@
     </script>
     <br>
 </body>
+<script src="JS/header.js"></script>
+<script src="JS/index.js"></script>
 <%@ include file="footer.jsp" %>
 </html>

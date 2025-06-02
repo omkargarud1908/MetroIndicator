@@ -211,9 +211,9 @@ body.dark-mode .material-icons {
 
 
 
-.puneheading
+.mumbaiheading
 {
-    padding-right: 300px;
+    padding-right: 1000px;
     font-size: 30px;
 }
 nav {
@@ -289,7 +289,7 @@ nav a{
     display: none;
     right: 50px; /* Adjust padding-left */
 }
-#punemetrologo
+#mumbaimetrologo
 {
     width: 100px;
     height: 100;
@@ -350,7 +350,7 @@ nav a{
     .sidebar{
         display: none;
     }
-    .puneheading
+    .mumbaiheading
     {
         padding-right: 100px;
         
@@ -369,13 +369,13 @@ nav a{
 }
 @media only screen and (max-width:1400px)
 {
-    .puneheading
+    .mumbaiheading
     {
         font-size: 20px;
     }
 }
 @media only screen and (max-width: 1200px) {
-    .puneheading {
+    .mumbaiheading {
         font-size: 16px;
     }
     
@@ -453,6 +453,8 @@ nav a{
 
 /* css for services list */
 
+
+
 /* Style the close icon */
 .sidebar .fa-xmark {
     position: absolute;
@@ -503,7 +505,7 @@ nav a{
 }
 @media only screen and (max-width:1400px)
 {
-    .puneheading
+    .mumbaiheading
     {
         font-size: 20px;
     }
@@ -1171,7 +1173,7 @@ hr{
     #newdcontainer{
         display: flex;
     }
-    .puneheading{
+    .mumbaiheading{
         display: none;
     }
     .services{

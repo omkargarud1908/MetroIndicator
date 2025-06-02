@@ -25,24 +25,20 @@
 
     <div id="heading">
         <i><h2 class="line">Our Offices</h2></i>
-        </div>
+    </div>
     
 
 
     <div id="helpcontact">
-        
-
-    <div id="contact">
-        
-        <div id="info">
+        <div id="contact">
+            <div id="info">
            
+            </div>
         </div>
-        
-    
-    </div>
     </div>
 </body>
 <script src="index.js"></script> 
+<script src="JS/header.js"></script>
 <%@ include file="footer.jsp" %>
 
 </html>

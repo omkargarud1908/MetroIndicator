@@ -66,8 +66,8 @@ try {
                     Message messages = new MimeMessage(sessions);
                     messages.setFrom(new InternetAddress(usernames));
                     messages.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
-                    messages.setSubject("Acknowledgement: Pune Metro Complaint Received");
-                    messages.setText("Hi " + name + ",\n\nThank you for submitting your complaint regarding Pune Metro.\n\nWe have received your complaint and our team is currently looking into it.\n\nIf you have any further concerns or questions, please feel free to contact us.\n\nThank you for your patience and understanding.\n\nWarm regards,\nPune Metro");
+                    messages.setSubject("Acknowledgement: Mumbai Metro Complaint Received");
+                    messages.setText("Hi " + name + ",\n\nThank you for submitting your complaint regarding Mumbai Metro.\n\nWe have received your complaint and our team is currently looking into it.\n\nIf you have any further concerns or questions, please feel free to contact us.\n\nThank you for your patience and understanding.\n\nWarm regards,\nMumbai Metro");
                 
                     // Send the message
                     Transport.send(messages);

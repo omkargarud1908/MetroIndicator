@@ -33,50 +33,30 @@
                 <label for="" class="plan-your-jrny-box-label" id="fromlabelque">From</label>
                 <select name="" id="source">
                     <option value="0">-- Select Station --</option>
-                    <option value="1">PCMC</option>
-                    <option value="2">Sant Tukaram Nagar</option>
-                    <option value="3">Bhosari</option>
-                    <option value="4">Kasarwadi</option>
-                    <option value="5">Phugewadi</option>
-                    <option value="6">Dapodi</option>
-                    <option value="7">Bopodi</option>
-                    <option value="11">Shivaji Nagar</option>
-                    <option value="12">Civil Court</option>
-                    <option value="17">Vanaz</option>
-                    <option value="18">Anand Nagar</option>
-                    <option value="19">Ideal Colony</option>
-                    <option value="20">Nal Stop</option>
-                    <option value="21">Garware College</option>
-                    <option value="22">Deccan Gymkhana</option>
-                    <option value="23">Chhatrapati Sambhaji Udyan</option>
-                    <option value="24">PMC</option>
-                    <option value="25">Mangalwar Peth</option>
-                    <option value="26">Pune Railway Station</option>
-                    <option value="27">Ruby Hall Clinic</option>
+                                <option value="Aarey JVLR">Aarey JVLR</option>
+                                <option value="SEEPZ">SEEPZ</option>
+                                <option value="MIDC-Andheri">MIDC-Andheri</option>
+                                <option value="Marol Naka">Marol Naka</option>
+                                <option value="CSMI-Airport-T2">CSMI-Airport-T2</option>
+                                <option value="Sahar Road">Sahar Road</option>
+                                <option value="CSMI-Airport-T1">CSMI-Airport-T1</option>
+                                <option value="Santacruz">Santacruz</option>
+                                <option value="Bandra Colony">Bandra Colony</option>
+                                <option value="Bandra-Kurla Complex">Bandra-Kurla Complex</option>
                 </select>
                 <label for="" class="plan-your-jrny-box-label" id="tolabelque">To</label>
                 <select name="" id="destination">
                     <option value="0">-- Select Station --</option>
-                    <option value="1">PCMC</option>
-                    <option value="2">Sant Tukaram Nagar</option>
-                    <option value="3">Bhosari</option>
-                    <option value="4">Kasarwadi</option>
-                    <option value="5">Phugewadi</option>
-                    <option value="6">Dapodi</option>
-                    <option value="7">Bopodi</option>
-                    <option value="11">Shivaji Nagar</option>
-                    <option value="12">Civil Court</option>
-                    <option value="17">Vanaz</option>
-                    <option value="18">Anand Nagar</option>
-                    <option value="19">Ideal Colony</option>
-                    <option value="20">Nal Stop</option>
-                    <option value="21">Garware College</option>
-                    <option value="22">Deccan Gymkhana</option>
-                    <option value="23">Chhatrapati Sambhaji Udyan</option>
-                    <option value="24">PMC</option>
-                    <option value="25">Mangalwar Peth</option>
-                    <option value="26">Pune Railway Station</option>
-                    <option value="27">Ruby Hall Clinic</option>
+                                <option value="Aarey JVLR">Aarey JVLR</option>
+                                <option value="SEEPZ">SEEPZ</option>
+                                <option value="MIDC-Andheri">MIDC-Andheri</option>
+                                <option value="Marol Naka">Marol Naka</option>
+                                <option value="CSMI-Airport-T2">CSMI-Airport-T2</option>
+                                <option value="Sahar Road">Sahar Road</option>
+                                <option value="CSMI-Airport-T1">CSMI-Airport-T1</option>
+                                <option value="Santacruz">Santacruz</option>
+                                <option value="Bandra Colony">Bandra Colony</option>
+                                <option value="Bandra-Kurla Complex">Bandra-Kurla Complex</option>
                 </select>
                 <input type="submit" value="Know Your Fare" onclick="calculateFare()" id="submitbutton">
                 

@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     
     <link rel="icon" type="images/jpg" href="images/thead.png">
+    
 </head> 
 <body class="ubuntu-medium" id="sizecontainer"> 
 
@@ -27,9 +28,12 @@
     </div>
 
      <div id="mahametro">
-        <p>
-           
-        </p>
+        <div class="box">
+         <img src="images/Projects.png" alt="" id="fareimg">
+
+        </div>
+         <br>
+        
      </div>
 </body>
 <%@ include file="footer.jsp" %>

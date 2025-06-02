@@ -62,29 +62,16 @@
                     <div class="plan-your-jrny-box-selection">
                         <select name="S_name" id="S_name">
                             <option value="0">-- Select Station --</option>
-                            <option value="PCMC">PCMC</option>
-                            <option value="Sant Tukaram Nagar">Sant Tukaram Nagar</option>
-                            <option value="Bhosari">Bhosari</option>
-                            <option value="Kasarwadi">Kasarwadi</option>
-                            <option value="Phugewadi">Phugewadi</option>
-                            <option value="Dapodi">Dapodi</option>
-                            <option value="Bopodi">Bopodi</option>
-                            <option value="Shivaji Nagar">Shivaji Nagar</option>
-                            <option value="Civil Court">Civil Court</option>
-                            <option value="Vanaz">Vanaz</option>
-                            <option value="Anand Nagar">Anand Nagar</option>
-                            <option value="Ideal Colony">Ideal Colony</option>
-                            <option value="NalStop">Nal Stop</option>
-                            <option value="Garware College">Garware College</option>
-                            <option value="Deccan Gymkhana">Deccan Gymkhana</option>
-                            <option value="Chhatrapati Sambhaji Udyan">Chhatrapati Sambhaji Udyan</option>
-                            <option value="PMC">PMC</option>
-                            <option value="Mangalwar Peth">Mangalwar Peth</option>
-                            <option value="Pune Railway Station">Pune Railway Station</option>
-                            <option value="Ruby Hall Clinic">Ruby Hall Clinic</option>
-                            <option value="Bund Garden">Bund Garden</option>
-                            <option value="Kalyani Nagar">Kalyani Nagar</option>
-                            <option value="Ramwadi">Ramwadi</option>
+                                <option value="Aarey JVLR">Aarey JVLR</option>
+                                <option value="SEEPZ">SEEPZ</option>
+                                <option value="MIDC-Andheri">MIDC-Andheri</option>
+                                <option value="Marol Naka">Marol Naka</option>
+                                <option value="CSMI-Airport-T2">CSMI-Airport-T2</option>
+                                <option value="Sahar Road">Sahar Road</option>
+                                <option value="CSMI-Airport-T1">CSMI-Airport-T1</option>
+                                <option value="Santacruz">Santacruz</option>
+                                <option value="Bandra Colony">Bandra Colony</option>
+                                <option value="Bandra-Kurla Complex">Bandra-Kurla Complex</option>
 
                         </select>
                     </div><br>
@@ -136,29 +123,16 @@
                     <div class="plan-your-jrny-box-selection">
                         <select name="S_name" id="S_name">
                             <option value="0">-- Select Station --</option>
-                            <option value="PCMC">PCMC</option>
-                            <option value="Sant Tukaram Nagar">Sant Tukaram Nagar</option>
-                            <option value="Bhosari">Bhosari</option>
-                            <option value="Kasarwadi">Kasarwadi</option>
-                            <option value="Phugewadi">Phugewadi</option>
-                            <option value="Dapodi">Dapodi</option>
-                            <option value="Bopodi">Bopodi</option>
-                            <option value="Shivaji Nagar">Shivaji Nagar</option>
-                            <option value="Civil Court">Civil Court</option>
-                            <option value="Vanaz">Vanaz</option>
-                            <option value="Anand Nagar">Anand Nagar</option>
-                            <option value="Ideal Colony">Ideal Colony</option>
-                            <option value="Nal Stop">Nal Stop</option>
-                            <option value="Garware College">Garware College</option>
-                            <option value="Deccan Gymkhana">Deccan Gymkhana</option>
-                            <option value="Chhatrapati Sambhaji Udyan">Chhatrapati Sambhaji Udyan</option>
-                            <option value="PMC">PMC</option>
-                            <option value="Mangalwar Peth">MangalwarPeth</option>
-                            <option value="Pune Railway Station">PuneRailwayStation</option>
-                            <option value="Ruby Hall Clinic">RubyHallClinic</option>
-                            <option value="Bund Garden">Bund Garden</option>
-                            <option value="Kalyani Nagar">Kalyani Nagar</option>
-                            <option value="Ramwadi">Ramwadi</option>
+                                <option value="Aarey JVLR">Aarey JVLR</option>
+                                <option value="SEEPZ">SEEPZ</option>
+                                <option value="MIDC-Andheri">MIDC-Andheri</option>
+                                <option value="Marol Naka">Marol Naka</option>
+                                <option value="CSMI-Airport-T2">CSMI-Airport-T2</option>
+                                <option value="Sahar Road">Sahar Road</option>
+                                <option value="CSMI-Airport-T1">CSMI-Airport-T1</option>
+                                <option value="Santacruz">Santacruz</option>
+                                <option value="Bandra Colony">Bandra Colony</option>
+                                <option value="Bandra-Kurla Complex">Bandra-Kurla Complex</option>
 
                         </select><br>
                     </div>
@@ -231,29 +205,16 @@
                             <div class="plan-your-jrny-box-selection">
                                 <select name="S_name" id="S_name">
                                     <option value="0">-- Select Station --</option>
-                                    <option value="PCMC">PCMC</option>
-                                    <option value="Sant Tukaram Nagar">Sant Tukaram Nagar</option>
-                                    <option value="Bhosari">Bhosari</option>
-                                    <option value="Kasarwadi">Kasarwadi</option>
-                                    <option value="Phugewadi">Phugewadi</option>
-                                    <option value="Dapodi">Dapodi</option>
-                                    <option value="Bopodi">Bopodi</option>
-                                    <option value="Shivaji Nagar">Shivaji Nagar</option>
-                                    <option value="Civil Court">Civil Court</option>
-                                    <option value="Vanaz">Vanaz</option>
-                                    <option value="Anand Nagar">Anand Nagar</option>
-                                    <option value="Ideal Colony">Ideal Colony</option>
-                                    <option value="NalStop">Nal Stop</option>
-                                    <option value="Garware College">Garware College</option>
-                                    <option value="Deccan Gymkhana">Deccan Gymkhana</option>
-                                    <option value="Chhatrapati Sambhaji Udyan">Chhatrapati Sambhaji Udyan</option>
-                                    <option value="PMC">PMC</option>
-                                    <option value="Mangalwar Peth">Mangalwar Peth</option>
-                                    <option value="Pune Railway Station">Pune Railway Station</option>
-                                    <option value="Ruby Hall Clinic">Ruby Hall Clinic</option>
-                                    <option value="Bund Garden">Bund Garden</option>
-                                    <option value="Kalyani Nagar">Kalyani Nagar</option>
-                                    <option value="Ramwadi">Ramwadi</option>
+                                <option value="Aarey JVLR">Aarey JVLR</option>
+                                <option value="SEEPZ">SEEPZ</option>
+                                <option value="MIDC-Andheri">MIDC-Andheri</option>
+                                <option value="Marol Naka">Marol Naka</option>
+                                <option value="CSMI-Airport-T2">CSMI-Airport-T2</option>
+                                <option value="Sahar Road">Sahar Road</option>
+                                <option value="CSMI-Airport-T1">CSMI-Airport-T1</option>
+                                <option value="Santacruz">Santacruz</option>
+                                <option value="Bandra Colony">Bandra Colony</option>
+                                <option value="Bandra-Kurla Complex">Bandra-Kurla Complex</option>
 
                                 </select>
                             </div>
