@@ -76,7 +76,8 @@ function marathibutton()
 }
   
 </script><br>
-<script src="JS/index.js"></script>    
+<script src="JS/index.js"></script>  
+  <script src="JS/header.js"></script>  
 <%@ include file="footer.jsp" %>
 
 </html>

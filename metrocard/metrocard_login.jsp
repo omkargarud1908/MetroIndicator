@@ -80,7 +80,8 @@ body {
     </div>
 </div>
 </body>
-<script src="index.js"></script>    
+<script src="index.js"></script>   
+<script src="header.js"></script> 
 <%@ include file="footer.jsp" %>
 
 </html>
